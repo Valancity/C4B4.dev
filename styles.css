@@ -2,15 +2,6 @@ title-text {
   align-items: center
 }
 
-           body {
+body {
   background: repeating-linear-gradient(45deg, #e1e1e1, #e1e1e1 35px, #6F625E 35px, #6F625E 70px) ;
-  background-size: 400% 400%;
-  animation: gradient 100s linear infinite;
-  height: 100vh;
-}
-
-@keyframes gradient {
-  100% {
-    background-position: 100% 100%;
-  }
 }
